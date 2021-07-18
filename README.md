@@ -13,4 +13,4 @@ I tend to use [Overleaf](https://www.overleaf.com/), a collaborative cloud-based
 Largely inspired by [@sb2nov's resume](https://github.com/sb2nov/resume) repository.
 
 ## Preview
-![plot](./Resume Jul 2021.png)
+![plot](https://github.com/sanjaymaniam/resume/blob/main/Sanjay%20Resume%20Jul%202021.png)
