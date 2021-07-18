@@ -1,0 +1,207 @@
+%-------------------------
+% Resume in Latex
+% Author : Sanjay Subramaniam
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/sanjaymaniam/}{\Large Sanjay Subramaniam}} & Email : \href{mailto:sanjaysubramaniam99@gmail.com}{sanjaysubramaniam99@gmail.com}\\
+  \href{https://www.linkedin.com/in/sanjaymaniam/}{https://www.linkedin.com/in/sanjaymaniam/} & Mobile : +91-735-8850-853 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Manipal Institute of Technology}{Manipal, Karnataka}
+      {Bachelor of Technology in Mechatronics Engineering, Minor in Digital Marketing}{2017-2021}
+      \begin{itemize}
+        \item Embedded Systems at Project Manas, Manipal’s official AI Robotics team. Won a second prize at Intelligent Ground Vehicle Competition 2018 , Oakland University, Michigan.
+        \item Represented a class of 80 sophomores to the Student Council for a year. Responsible for organizing lectures, coordinating between faculty and students and answering administrivia.
+        \item Relevant Coursework: Digital Integrated Circuits, Embedded Systems, Linux and Shell Scripting.
+      \end{itemize}
+
+    \resumeSubheading
+      {Suguna Pip School}{Coimbatore, Tamil Nadu}
+      {Physics, Math, Chemistry and Computer Science}{2015-2017}
+      \begin{itemize}
+        \item Scored a 90\% in 12th grade CBSE board examinations.
+        \item Awarded the Outstanding Rylarian award by the Rotary Club of Coimbatore, TexCity for leadership and public speaking skills.
+        \item Delegate at Indian International Model United Nations, Kodaikanal.
+      \end{itemize}
+      
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Aekam Labs}{Coimbatore, Tamil Nadu}
+      {Lead Instructor}{Feb 2021 - Present}
+      \resumeItemListStart
+        \resumeItem{Front-end Development}
+          {Coached high school and university students in the basics of front-end web development. Helped them start their open-source projects, and kick-started their coding journey.}
+        \resumeItem{Open-source projects co-ordination}
+          {Organized and coordinated development of Aekam's open-source efforts. Technologies used: .NET, Django, Tailwind CSS, Bootstrap and Angular.}
+      \resumeItemListEnd
+      
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+    
+    \resumeSubheading
+      {Dreamtraps Media}{Manipal, India}
+      {Freelance Writer}{Feb 2021 - Present}
+      \resumeItemListStart
+        \resumeItem{Copywriting}
+          {Generated around INR 10,000 a month from freelance writing projects.}
+        \resumeItem{Independent blogging}
+          {Averaged around 200 page views a week. Wrote over 30,000 words over the period.}
+      \resumeItemListEnd
+
+
+    \resumeSubheading
+      {Dubai Cable Company}{Abu Dhabi, UAE}
+      {PLC Programming Intern}{Jun. 2019 -- Jul. 2019}
+      \resumeItemListStart
+        \resumeItem{Alarm System for Sheathing Line}
+          {Built a Siemens S7-300 PLC based alarm system using Ladder Logic for a cable insulation line.}
+        \resumeItem{Industrial Training}
+          {Worked with industry professionals and technicians to learn about standard production, testing and maintenance processes.}
+      \resumeItemListEnd
+      
+     \resumeSubheading
+      {Project Manas: AI Research \& Robotics Team}{Manipal, Karnataka}
+      {Jr. Embedded Systems Engineer}{Dec. 2017 -- Nov. 2018}
+      \resumeItemListStart
+        \resumeItem{Intelligent Ground Vehicle Competition 2018}
+          {Our team won a second prize at Intelligent Ground Vehicle Competition 2018, Oakland University, Michigan for the IOP challenge.}
+        \resumeItem{Arduino Programming}
+          {Interfaced, calibrated and debugged quadrature wheel encoders for velocity and distance estimation. Responsible for assessing and debugging problems in the embedded and hardware suite that went on the robot.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{hermione (Ongoing)}
+      {Open-source alternative to Goodreads. Using Django and React for most purposes.}
+    \resumeSubItem{kindlerWeb}
+      {Open source tool to curate Kindle highlights. Used Django, PostgreSQL and SQLite.}
+    \resumeSubItem{noobNet}
+      {Basic Deep Learning Framework built using pure C++ to understand fundamentals}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
