@@ -6,7 +6,7 @@ Google Drive: https://drive.google.com/file/d/1L0YnYObf5BJgfS_tCiqGt4ecpoq-tKr7/
 
 ## Motivation
 
-Intention behind this repo is to version control my resume and maintain different versions of it. Since I'm using LaTeX anyways, I figured it would just make more sense to maintain this here rather than to maintain multiple PDF versions.
+Intention behind this repo is to version control my resume and maintain different branches of it. Since I'm using LaTeX anyways, I figured it would just make more sense to maintain this here rather than to maintain multiple PDF versions.
 
 I tend to use [Overleaf](https://www.overleaf.com/), a collaborative cloud-based LaTeX editor, for my purposes.
 
